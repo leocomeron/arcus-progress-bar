@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arcus Progress Bar</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://play-lh.googleusercontent.com/1KHh3KnzltZQR2hDUoEkQx12bn34tUjOstlnt2YGdWsa9-zluNpFxHiK_ETsbWyJcbky=w240-h480-rw"
+    />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <h1>Progress bar!</h1>
+    <div id="progress-bar-container">
+      <div id="progress-bar">0%</div>
+    </div>
+    <div>
+      <button id="start-btn" onclick="startProgress()">Start</button>
+      <button id="stop-btn" onclick="stopProgress()" disabled>Stop</button>
+      <button id="reset-btn" onclick="resetProgress()" disabled>Reset</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
