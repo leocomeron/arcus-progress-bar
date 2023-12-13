@@ -1,6 +1,4 @@
 # arcus-progress-bar
-
-## Code Challenge
  
 ## Overview:
 Creating a loading bar that every 0.1 seconds increases 1% of completion. It should have a start button, a reset button, and a stop button. It should have a text label indicating the percentage rate.
